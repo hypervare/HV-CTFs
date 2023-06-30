@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HV-CTFs</title>
+        <style>
+            *{
+                background: black;
+                color: rgb(68, 185, 0);
+            }
+            #header{
+                border-bottom: 0.3rem solid green;
+                display: flex;
+                gap: 35%;
+            }
+            #header #mainLogo{
+                margin-left: 1rem;
+            }
+            #header #mainLogo a{
+                text-decoration: none;
+            }
+            #header #navEle{
+                right: 2rem;
+                font-size: 1.1rem;
+                margin-top: 1.5rem;
+            }
+            #header #navEle a{
+                text-decoration: none;
+                margin-right: 0.3rem;
+            }
+            #header #navEle a:hover{
+                color: red;
+            }
+            #labsCate{
+                margin: 10%;
+            }
+            #labsCate #labsList{
+                margin: 5%;
+            }
+            #labsCate #labsList #labs{
+                border: 0.3rem;
+                border-style: solid;
+                border-color: green;
+                padding: 1rem;
+                margin-right: 15rem;
+                margin-bottom: 2rem;
+            }
+            #labsCate #labsList #labs:hover{
+                margin-right: 10rem;
+            }
+            #labsCate #labsList #labs a{
+                text-decoration: none;
+            }
+            #labsCate #labsList a p{
+                color: white;
+                font-size: 0.8rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div id="mainLogo">
+                <a href="https://hypervare.com"><h2>HyperVare</h2></a>
+            </div>
+            <h3>CTF Labs</h3>
+            <div id="navEle">
+                <a href="https://hypervare.github.io/HVsec/">Home</a>
+                <a href="https://hypervare.com/about">About</a>
+                <a href="https://hypervare.com/contact">Contact</a>
+            </div>
+        </div>
+        <div id="labsCate">
+            <h2>Web Application Hacking:.</h2>
+            <div id="labsList">
+                <div id="labs" >
+                    <a href="#"><div>
+                        <h3>Source-Code-Data | easy</h3>
+                        <p>Sometimes web application's source contains sensitive data.</p>
+                    </div></a>
+                </div>
+                <div id="labs" >
+                    <a href="#"><div>
+                        <h3>JavaScript-Leak | medium</h3>
+                        <p>Javascript used in website to make them efficient and secure.</p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <div id="labsCate">
+            <h2>Steganography:.</h2>
+            <div id="labsList">
+                <div id="labs" >
+                    <a href="#"><div>
+                        <h3>Hidden-Msg-Photo | medium</h3>
+                        <p>Hackers hide viruses and messages into an image.</p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+        <div id="labsCate">
+            <h2>Forensic:.</h2>
+            <div id="labsList">
+                <div id="labs" >
+                    <a href="#"><div>
+                        <h3>Corrupted-Img-File | medium</h3>
+                        <p>Recover data from corrupted image file.</p>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
